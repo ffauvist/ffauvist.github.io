@@ -4,66 +4,46 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <style>
-      #jb-container {
-        width: 800px;
-        margin:0px auto;
-      }
-      #jb-header {
-        padding:150px 0px 0px 0px;
-      }
-      #jb-sidebar {
-        width: 300px;
-        margin: 4000px 0px 0px 0px
-        float: left;
-      }
-      #jb-footer {
-        clear: both;
-        padding: 20px;
-      }
-     @media screen and (max-width:480px) {
-        #jb-container {
-          width: auto;
-        }
-        #jb-content {
-          float: none;
-          width: auto;
-        }
-        #jb-sidebar {
-          float: none;
-          width: auto;
-        }
-      }
+    <style type='taxt/css'>
+    #wrap_border {width:996px; padding:0; margin: 5px auto 0; border: 2px solid #ccc; border-radius: 5px}
+    #wrap{width:980px;}
+    nav{height:20px; margin: 10px 0 0 0;}
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icon144.png">
-    <link rel="shortcut icon" href="favicon.ico">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
     </head>
-  <body>
-<div class="container">
-       <h5>Contact</h5>
-    <li><a href="mailto:ffauvist@gmail.com">gmail</a></li>
-    <li><a href="http://facebook.com/ffauvist">facebook</a></li>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <br>
-    <br>
-    </p>
-    <br>
-    </div>
-    <div id="jb-container">
-      <div id="jb-header">
-      <div style="width: 100%; height: 100px; line-height: 100px; text-align: center">
-    <img src="eha.png" style="width: 100%; max-width: 760px; vertical-align: middle" />
-      </div>
-      <div id="jb-sidebar">
-        <h2>Content</h2>
-        <ul>
-          <li>Drawing</li>
-          <li>Graphic Design</li>
-          <li>Movie</li>
-        </ul>
-    </div>
+    <body>
+   <div id='wrap_border'>
+   <div id='wrap'>
+   <header>
+   <h1> Eh Park</h1>
+   <p><a href="http://cargocollective.com/eunhyunpark">블로그를 만들어보자</a></p>
+   </header>
+   <nav>
+   <ul>
+   <li class="first">test1</li>
+   <li>test2</li>
+   <li>test3</li>
+   </ul>
+   </nav>
+   <section>
+     <article>
+       <h2>article1</h2>
+       <p> article01 <abbr></abbr> article02</p>
+       <h2>article2</h2>
+       <p> article02 <abbr></abbr> article02</p>
+     </article>
+   </section>
+   <aside>
+     <h3>aside</h3>
+     <ul>
+     <li>gmail</li>
+     <li>facebook</li>
+     <li>more</li>
+     </ul>
+     </aside>
+     <footer>
+     <p>&copy;copyright 2014</p>
+     </footer>
+     </div>
+     </div>
   </body>
 </html>
